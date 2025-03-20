@@ -1,0 +1,137 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px auto;
+    width: 50%;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect on container */
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 102, 255, 0.15);
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 80%;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect on input */
+input:hover, input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Button styling */
+button {
+    padding: 12px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect on button */
+button:hover {
+    background: #e20606;
+    transform: scale(1.05);
+}
+
+#thumbnail img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #222;
+    margin-top: 20px;
+}
+
+/* Summary styling */
+#summary {
+    font-size: 18px;
+    color: #000000;
+    font-style: italic;
+    margin-top: 10px;
+    line-height: 1.6;
+    background: #f9f9f9;
+    padding: 15px;
+    border-left: 4px solid #007bff;
+    border-radius: 6px;
+}
+
+
+button {
+    padding: 12px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #f10505;
+}
+
+#thumbnail img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #222;
+    margin-top: 20px;
+}
+
+#summary {
+    font-size: 18px;
+    color: #555;
+    font-style: italic;  /* Italicized summary */
+    margin-top: 10px;
+    line-height: 1.6;
+    background: #f9f9f9;
+    padding: 15px;
+    border-left: 4px solid #007bff;
+    border-radius: 6px;
+}
